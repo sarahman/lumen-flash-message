@@ -1,0 +1,21 @@
+{
+    "name": "sarahman/lumen-flash-message",
+    "description": "This package is meant for using the `laracasts/flash` package into the Lumen based projects.",
+    "type": "library",
+    "require": {
+        "php": ">=5.4.0",
+        "laracasts/flash": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sarahman\\Flash\\": "src"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Syed Abidur Rahman",
+            "email": "aabid048@gmail.com"
+        }
+    ]
+}
