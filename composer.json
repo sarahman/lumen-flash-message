@@ -11,6 +11,15 @@
             "Sarahman\\Flash\\": "src"
         }
     },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sarahman\\Flash\\FlashServiceProvider"
+            ]
+        }
+    },
     "license": "MIT",
     "authors": [
         {
