@@ -8,13 +8,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Sarahman\\Flash\\": "src"
+            "Sarahman\\Flash\\": "src/"
         }
     },
     "minimum-stability": "stable",
     "prefer-stable": true,
     "extra": {
-        "laravel": {
+        "lumen": {
             "providers": [
                 "Sarahman\\Flash\\FlashServiceProvider"
             ]
