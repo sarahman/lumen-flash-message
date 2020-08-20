@@ -9,7 +9,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Sarahman\\Flash\\": "src"
+            "Sarahman\\Flash\\": "src/"
         }
     },
     "minimum-stability": "stable",
