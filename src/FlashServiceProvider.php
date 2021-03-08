@@ -29,5 +29,9 @@ class FlashServiceProvider extends \Laracasts\Flash\FlashServiceProvider
                 $this->app->make('Laracasts\Flash\SessionStore', [$this->app->request->session()])
             ]);
         });
+
+        $this->app->middleware([
+            'Illuminate\Session\Middleware\StartSession'
+        ]);
     }
 }
