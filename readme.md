@@ -5,13 +5,15 @@ This package is highly dependent on `laracasts/flash` package created by Jeffrey
 
 ## Installation ##
 
-Begin by pulling in the package through Composer.
+1. Begin by pulling in the package through Composer.
 
 ```bash
 composer require sarahman/lumen-flash-message
 ```
 
-Next, for Lumen, you need to register the Service Provider within your `bootstrap/app.php` file.
+2. Next, for Lumen, you need to create a config directory in the project root directory, copy the `session.php` from Laravel's config folder to the created config folder.
+
+3. Next, for Lumen, you need to register the Service Provider within your `bootstrap/app.php` file.
 
 ```php
 .....
